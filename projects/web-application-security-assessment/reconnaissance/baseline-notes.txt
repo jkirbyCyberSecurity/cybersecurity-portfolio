@@ -1,0 +1,24 @@
+WEB APPLICATION SECURITY ASSESSMENT
+Baseline Notes
+
+Project: Kirby Security Lab
+Assessment type: Authorized local lab
+Target URL: http://127.0.0.1:8000/
+Target address: 127.0.0.1 (localhost)
+Port: 8000/TCP
+Application technology: Python standard-library HTTP server
+Python version: 3.14.6
+
+Confirmed observations:
+- The application starts successfully.
+- The root page returns HTTP 200 OK.
+- The response content type is text/html.
+- The page identifies itself as Kirby Security Lab.
+- An HTTP response was saved in evidence/baseline-http-response.txt.
+
+Scope restrictions:
+- Test only this locally controlled application.
+- Do not scan public IP addresses or third-party systems.
+- Record observations separately from confirmed vulnerabilities.
+
+Status: Initial baseline established; security assessment pending.
