@@ -1,0 +1,4 @@
+alerts.txt
+*-report.txt
+__pycache__/
+*.py[cod]
